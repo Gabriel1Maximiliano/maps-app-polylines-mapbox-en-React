@@ -13,6 +13,7 @@ code {
 }
 .loading-map{
   position: fixed;
+  color: aliceblue;
   top: 0;
   right: 0;
   height: 100vh;

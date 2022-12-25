@@ -7,7 +7,7 @@ type PlacesAction = {
 export const PlacesReducer = (state: PlacesState, action:PlacesAction):PlacesState => {
 switch (action.type) {
     case 'setUSerLocation':
-        console.log(action.payload)
+       
         return {
             ...state,
             isLoading:false,
